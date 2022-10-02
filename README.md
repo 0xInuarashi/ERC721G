@@ -1,5 +1,5 @@
 # ERC721G
-ERC721G is the all-in-one batch minting and staking smart contract created by 0xInuarashi for Gangster All Star, and open-sourced to the public to build upon.
+**ERC721G is the all-in-one batch minting and staking smart contract created by 0xInuarashi for Gangster All Star, and open-sourced to the public to build upon.**
 
 Feel free to contribute, send feedback, or anything to our open-source repository!
 
