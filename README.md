@@ -1,5 +1,5 @@
 # ERC721G
-ERC721G is the all-in-one batch minting and staking smart contract created by 0xInuarashi for Gangster All Star, and open-sourced to the public to build upon.
+**ERC721G is the all-in-one batch minting and staking smart contract created by 0xInuarashi for Gangster All Star, and open-sourced to the public to build upon.**
 
 Feel free to contribute, send feedback, or anything to our open-source repository!
 
@@ -58,7 +58,7 @@ Built-in functionality that is activated on STAKE / UNSTAKE functions thus you d
 
 ## OPTIONAL ADDITIONAL HELPER FUNCTIONS
 These are optional additional helper functions that you can enable to be able to retrieve batch ownerOf or _trueOwnerOf for around 1.5k cheaper gas
-per batch inquiry. Not required. But it helps if you have some use for it.
+per token in the batch query. Not required. But it helps if you have some use for it.
 
 ## DISCLAIMER 
 **ALL SMART CONTRACT AND FILES HERE ARE OFFERED AS-IS AND OPEN-SOURCE. THE DEVELOPERS OF THIS REPOSITORY ARE NOT RESPONSIBLE FOR ANY ERRORS, BUGS, IMPLEMENTATION FAILURES, 

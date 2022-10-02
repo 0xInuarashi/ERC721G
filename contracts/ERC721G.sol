@@ -78,6 +78,10 @@ contract ERC721G {
     mapping(address => mapping(address => bool)) public isApprovedForAll; // approveall
 
     // Time Expansion and Compression by 0xInuarashi 
+    /** @dev Time Expansion and Compression extends the usage of ERC721G from
+     *  Year 2106 (end of uint32) to Year 3331 (end of uint32 with time expansion)
+     *  the trade-off is that staking accuracy is scoped within 10-second chunks
+     */
     function _getBlockTimestampCompressed() public virtual view returns (uint32) {
         return uint32(block.timestamp / 10);
     }
